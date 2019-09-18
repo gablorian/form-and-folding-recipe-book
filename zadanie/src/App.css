@@ -1,0 +1,229 @@
+html, body {
+  font-family: futuramedium,sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+
+  }
+  .spacerSecond{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .primaryColumn{
+    width: 50%;
+  }
+  .secondaryColumn{
+    width: 50%;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .container {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .spacerSecond{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+  .primaryColumn{
+    width: 100%;
+  }
+  .secondaryColumn{
+    width: 100%;
+  }
+}
+@media (max-width: 320px) {
+  html{
+    display: none;
+  }
+
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+  width: auto;
+}
+.section{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.header {
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  vertical-align: center;
+}
+.menu{
+  list-style: none;
+  display: inline-block;
+  font-size: 18px;
+  padding: 20px;
+  margin: 10px;
+}
+.menu li:hover{
+  text-decoration: underline #8641e9;
+  cursor: pointer;
+}
+.menu li{
+  padding: 5px;
+  margin: 5px;
+}
+.mainContent {
+  display: flex;
+  justify-content: center;
+  vertical-align: center;
+}
+.bottomLogo{
+  object-fit: none;
+}
+.justCenterIt {
+  justify-content: center;
+}
+.mainLogo{
+  object-fit: none;
+  margin: 30px;
+}
+.footer {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  vertical-align: center;
+  background-color: #efefef;
+}
+.menuChoices{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+/*1321321321312312313123123 recipes 1231231231231231231231231231231231*/
+.recipeTable {
+  max-width: 767px;
+  width: 100%;
+  min-width: 320px;
+}
+.border{
+  border: 1px solid #efefef;
+}
+.firstRow {
+  display: flex;
+  justify-content: space-between;
+}
+.titleRowText{
+  font-weight: bold;
+  color: #8641e9;
+  margin:10px;
+  padding: 10px;
+}
+.letsFlexIt{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.number{
+  font-size: 15px;
+  color:lightgray;
+  font-weight: bold;
+}
+.spacer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.bigger{
+  margin-top:15px;
+  margin-right: 10px;
+}
+.hidden{
+  display: none;
+}
+.arrowRotate{
+  transform: rotate(180deg);
+}
+.hat {
+  padding: 10px;
+}
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+.site-content {
+  flex: 1;
+}
+.longText{
+  margin-left: 20px;
+}
+.send{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+form{
+  display:flex;
+  flex-direction: column;
+}
+button{
+  background-color: #8641e9;
+  color: white;
+  border: none;
+  margin: 25px;
+  width: 120px;
+  height: 30px;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+
+}
+input {
+  width: 90%;
+  margin-left: 20px;
+  margin-top: 30px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid grey;
+  padding: 10px 0 ;
+
+}
+textarea:focus, input:focus{
+  outline: none;
+
+}
+span{
+  margin-top: 10px;
+  margin-left: 20px;
+ }
+.textFirstPart{
+  display: flex;
+  align-items: center;
+}
+.subMenu {
+  list-style: none;
+}
+
+.subMenu li::before {
+  content: "\2022";
+  color: #8641e9;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+.lightgray{
+  color: #666666;
+}
